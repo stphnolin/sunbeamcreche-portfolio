@@ -1,0 +1,174 @@
+#container
+{
+	width: 980px;
+	margin: auto;
+	overflow: auto;
+	font-family: 'Signika', "Lucida Sans Unicode", serif;
+}
+
+header
+{
+	width: 980px;
+	height: 100px;
+	margin: 60px 0 22px 0;
+}
+
+#logo
+{
+	width: 200px;
+	height: 100px;
+	margin: 0 22px;
+	float: left;
+}
+
+nav ul 
+{
+	float: left;
+    list-style-type: none;
+    margin: 54px 0 0 0;
+    padding: 0;
+    overflow: auto;
+    background-color: white;
+	display: flex;
+	justify-content: space-around;
+	width: 736px;
+	height: 46px;
+}
+
+
+nav li a 
+{
+    display: inline-block;
+	font-size: 15px;
+    color: #F26D70;
+    text-align: center;
+    padding: 13.5px 14px;
+    text-decoration: none;
+}
+
+nav li a:hover 
+{
+    background-color: #9BD3A5;
+}
+
+main
+{
+	background-color: white;
+	width: 936px;
+	overflow: auto;
+	padding: 22px;
+	margin: 0;	
+	
+}
+
+#breadcrumbs
+{
+	margin: 0;
+	padding: 0;
+}
+
+#breadcrumbs a
+{
+	text-decoration: none;
+	color: gray;
+	font-size: 16px;
+}
+
+.addyourdetails
+{
+	color: gray;
+	width: 560px;
+}
+
+form
+{
+	width: 560px;
+	float: left;
+}
+
+.form_content
+{
+	float: left;
+	font-size: 20px;
+	color: gray;
+}
+
+#fname
+{
+	width: 265px;
+	height: 48px;
+	margin: 10px 18px 30px 0;
+}
+
+#lname
+{
+	width: 265px;
+	height: 48px;
+	margin: 10px 0 30px 0;
+}
+
+#email
+{
+	width: 551px;
+	height: 48px;
+	margin: 10px 0 30px 0;
+}
+
+#submit
+{
+	width: 560px;
+	height: 51px;
+	margin: 10px 0 30px 0;
+	background-color: #78B8DB;
+    border: none;
+    color: white;
+	font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.stickynote
+{
+	width: 258px;
+	margin: 0 0 0 116px;
+	float: left;
+	color: gray;
+	border: 1px solid gray;
+}
+
+.stickynote_content
+{
+	width: 198px;
+	margin: 30px;
+}
+.stickynote_title
+{
+	width: 198px;
+	font-size: 28px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid grey;
+	
+}
+
+footer
+{
+	color: grey;
+	font-size: 18px;
+	margin: 30px 0;
+}
+
+footer a 
+{
+    color: grey;	
+    float: right;
+	margin: 0 10px 0 0;
+	padding: 0 10px 0 0;
+    text-decoration: none;
+	border-right:solid 1px grey;
+}
+
+footer a:hover 
+{
+    color: #78B8DB;
+}
+
